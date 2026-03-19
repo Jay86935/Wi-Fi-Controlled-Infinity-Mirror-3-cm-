@@ -20,7 +20,7 @@ The entire system is designed in a **compact 3 cm thick frame**, making it suita
 
 ## Control System
 
-The LEDs are controlled using the **:contentReference[oaicite:1]{index=1} mobile application**, which runs on the ESP8266.
+The LEDs are controlled using the **Wled mobile application**, which runs on the ESP8266.
 
 **Important:**  
 This project uses **WLED firmware**, therefore **no custom Arduino code was written**.  

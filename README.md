@@ -1,63 +1,74 @@
 # Wi-Fi Controlled Infinity Mirror (3 cm)
 
-This project demonstrates a **Wi-Fi controlled infinity mirror lighting system** built using the **ESP8266 microcontroller and RGB LED strips**. The system creates an optical illusion of infinite depth using a **two-mirror setup**, while allowing users to control lighting effects remotely through Wi-Fi.
+This project demonstrates a **Wi-Fi controlled infinity mirror lighting system** built using the **ESP8266 microcontroller and RGB LED strips**.  
+The mirror creates an **optical illusion of infinite depth** using a two-mirror arrangement while allowing wireless control of lighting effects through Wi-Fi.
 
-The mirror has a **compact thickness of only 3 cm**, making it suitable for decorative lighting and smart home applications.
+The entire system is designed in a **compact 3 cm thick frame**, making it suitable for decorative and smart-lighting applications.
 
 ---
 
 ## Features
 
 - Ultra-thin **3 cm infinity mirror design**
-- **Wi-Fi based control** using ESP8266
-- Multiple **RGB lighting effects**
-- **Smartphone or web-based control**
-- Adjustable **brightness and colors**
-- Real-time LED control with low latency
+- **Wi-Fi based lighting control**
+- Multiple RGB lighting effects and animations
+- Adjustable brightness and colors
+- Real-time wireless LED control
+- Easy configuration using a smartphone
+
+---
+
+## Control System
+
+The LEDs are controlled using the **:contentReference[oaicite:1]{index=1} mobile application**, which runs on the ESP8266.
+
+**Important:**  
+This project uses **WLED firmware**, therefore **no custom Arduino code was written**.  
+All LED effects, brightness control, and color patterns are managed directly through the WLED interface.
 
 ---
 
 ## Hardware Components
 
-- ESP8266 (NodeMCU / ESP-12)
-- RGB LED Strip (WS2812B or standard RGB strip)
-- One-way mirror (two-way mirror acrylic)
-- Standard mirror
+- ESP8266 (NodeMCU)
+- WS2812B Addressable RGB LED Strip
+- One-way mirror (acrylic mirror film)
+- Standard reflective mirror
 - Power supply
-- Frame / enclosure (3 cm thickness)
+- Wooden / acrylic frame (3 cm thickness)
 
 ---
 
 ## Working Principle
 
-The infinity mirror effect is created using **two mirrors placed parallel to each other**:
+The infinity mirror effect is achieved by placing:
 
-1. A **fully reflective mirror** at the back.
-2. A **one-way mirror** at the front.
+1. A **fully reflective mirror at the back**
+2. A **semi-transparent one-way mirror at the front**
 
-RGB LED strips are placed between the mirrors. When LEDs turn on, light reflects multiple times between the mirrors, creating the illusion of **infinite depth**.
+RGB LEDs are placed between the two mirrors. When the LEDs turn on, light reflects repeatedly between the mirrors, creating the illusion of **infinite depth**.
 
-The **ESP8266 microcontroller** connects to Wi-Fi and controls the RGB LEDs. Users can change lighting effects, brightness, and colors through a **mobile device or web interface**.
+The ESP8266 runs WLED firmware and connects to Wi-Fi.  
+Users can control LED animations, brightness, and colors through the **WLED mobile app or web interface**.
 
 ---
 
 ## Applications
 
-- Smart home lighting
-- Decorative wall installations
+- Smart home decorative lighting
 - Gaming room lighting
-- Interactive art displays
-- IoT lighting systems
+- Interior wall decoration
+- Interactive art installations
+- IoT lighting projects
 
 ---
 
 ## Technologies Used
 
-- Arduino IDE
-- Embedded C/C++
-- ESP8266 Wi-Fi Module
-- RGB LED Control
-- IoT Wireless Communication
+- ESP8266 Wi-Fi Microcontroller
+- WLED Firmware
+- Addressable RGB LED Control
+- IoT Wireless Lighting
 
 ---
 
